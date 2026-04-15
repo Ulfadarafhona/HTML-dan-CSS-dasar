@@ -1,0 +1,140 @@
+*{
+	margin: 2px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  
+}
+
+
+
+/* bagian header */
+.jumbotron {
+  background: #005f77;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+nav {
+  background: #00a2c6;
+  border-radius: 0 0 8px 8px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  width: 20%;
+	
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  margin: 2px 0;
+  font-weight:bold;
+	transition: ease-in-out 0.8s;
+	border-right: 1.5px solid #008aa8;
+	border-radius: 3px;
+	
+}
+
+nav ul li a:hover {
+  background: #008aa8;
+}
+
+
+
+/* bagian main  */
+main {
+  width: 70%; 
+  padding: 0;
+  
+}
+.container {
+  display: flex;
+  border-radius: 8px;
+  
+}
+article{
+	padding: 15px;
+}
+
+
+
+/* bagian aside  */
+aside {
+  width: 30%;
+  padding: 0;
+ 
+}
+
+h3{
+	margin-left: 15px;
+}
+
+.pengumuman{
+	width: 100%;
+	display: flex;
+	
+}
+.judul {
+  background: #0f5c6e;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-weight: bold;
+	margin: 0;
+  width: 100%;
+  
+}
+
+.isi-pengumuman {
+  padding: 15px;
+}
+
+.informasi{
+	margin: 15px;
+}
+
+.informasi img{
+	width: 150px;
+	height: 100px;
+	object-fit: cover;
+	float: left;
+	margin: 0 12px 10px 0;
+  	border-radius: 8px;
+}
+
+
+
+/* bagian footer */
+footer {
+  background: #005f77;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+
+/* lainnya */
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden; /* penting biar radius ikut ke dalam */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 5px;
+}
